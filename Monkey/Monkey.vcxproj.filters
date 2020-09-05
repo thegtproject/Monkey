@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Virtual Machines">
+      <UniqueIdentifier>{3197610f-2c3a-42b2-bcf3-3aa226c7cb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Virtual Machines\XTulator">
+      <UniqueIdentifier>{3626f5f3-b9c5-4265-a2cb-24fb8c0f65f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Virtual Machines\XTulator\Source">
+      <UniqueIdentifier>{1a59677a-2405-41b9-bc82-6ab4c920f9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Virtual Machines\XTulator\Headers">
+      <UniqueIdentifier>{005dcb1e-0fb5-4dc5-89d7-7ca32fb5f688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Virtual Machines\MXVM 1020">
+      <UniqueIdentifier>{27575f97-0158-4936-bd8f-514913cd67fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Virtual Machines\MXVM 1020\Headers">
+      <UniqueIdentifier>{505905a7-c386-4dc5-8134-d5493dc4f7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Virtual Machines\MXVM 1020\Source">
+      <UniqueIdentifier>{ad027ea1-9bae-4d46-a264-8332c64c93dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VirtualMachineHost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XTulator.cpp">
+      <Filter>Virtual Machines\XTulator\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Application.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VirtualMachineHost.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VirtualMachine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XTulator.hpp">
+      <Filter>Virtual Machines\XTulator\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
